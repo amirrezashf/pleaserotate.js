@@ -123,7 +123,7 @@
         group.setAttribute('id','pleaserotate-graphic-path');
 
         if(options.forcePortrait){
-            group.setAttribute('transform','rotate(-90 125 125)');
+            group.setAttribute('transform','rotate(90 125 125)');
         }
 
         var path = document.createElementNS('http://www.w3.org/2000/svg', 'path');
